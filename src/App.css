@@ -1,0 +1,76 @@
+/* App.css */
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+  border-style: solid;
+  border-color: green;
+  border-radius: 25px
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container{
+  background-color: green;
+}
+
+.input-container.n12nxe{
+  margin-left: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+
+span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+  background-color: #3498db;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color:yellow;
+}
+
+button.remove {
+  background-color: #ea240e;
+  color: #fff;
+}
+
+button.edit {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.drag-info {
+  font-size: 12px;
+  color: #888;
+}
+
